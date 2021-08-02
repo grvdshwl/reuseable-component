@@ -1,0 +1,15 @@
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 900px
+    
+}
+
+.sign-in-button{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+    
+}

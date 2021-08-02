@@ -1,0 +1,39 @@
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  height: 7vh;
+  background-color: black;
+}
+
+.navBar .navComponent {
+  display: flex;
+  justify-content: space-evenly;
+  width: 35vw;
+
+  align-items: center;
+}
+
+.navBar .navComponent a {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.navBar .navComponent a:hover {
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.navBar .navComponent .logout {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.navBar .navComponent .logout:hover {
+  font-weight: bold;
+  transform: scale(1.2);
+}
